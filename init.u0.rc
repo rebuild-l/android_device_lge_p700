@@ -43,6 +43,14 @@ on property:init.svc.charger=running
     write /sys/class/android_usb/android0/enable 1
     start adbd
 
+service fm_dl /system/bin/sh /system/etc/init.qcom.fm.sh
+    class late_start
+    user root
+    group system qcom_oncrpc
+    disabled
+    oneshot
+
+
 ## Power profiles (CM QS tile)
 # Powersave
 on property:sys.perf.profile=0

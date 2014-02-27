@@ -31,7 +31,10 @@ PRODUCT_PACKAGES += \
 
 # LibWebCore
 PRODUCT_PACKAGES += \
-    libwebcore
+    libwebcore \
+    FM2 \
+    libqcomfm_jni \
+    qcom.fmradio
 
 #bluetooth
 PRODUCT_COPY_FILES += \

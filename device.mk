@@ -1,4 +1,5 @@
 $(call inherit-product, device/lge/msm7x27a-common/msm7x27a-common.mk)
+$(call inherit-product, device/lge/msm7x27a-common/nfc.mk)
 
 $(call inherit-product-if-exists, vendor/lge/p700/p700-vendor.mk)
 
@@ -31,11 +32,14 @@ PRODUCT_PACKAGES += \
 
 # LibWebCore
 PRODUCT_PACKAGES += \
-    libwebcore \
+    libwebcore 
+
+# FM
+PRODUCT_PACKAGES += \
     FM2 \
     libqcomfm_jni \
     qcom.fmradio
-
+	
 #bluetooth
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/bin/hwmac:system/bin/hwmac \

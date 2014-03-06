@@ -34,12 +34,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libwebcore 
 
-# FM
-PRODUCT_PACKAGES += \
-    FM2 \
-    libqcomfm_jni \
-    qcom.fmradio
-	
 #bluetooth
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/bin/hwmac:system/bin/hwmac \

@@ -101,6 +101,3 @@ lib/libmmosal.so
 lib/libmmparser.so
 lib/libmmstillomx.so
 
-# FM Radio
-bin/fmconfig
-bin/fm_qsoc_patches

@@ -4,7 +4,3 @@
 debug.camcorder.disablemeta=1
 ro.sf.hwrotation=180
 ro.sf.lcd_density=240
-# FM Radio
-ro.fm.analogpath.supported=true
-ro.fm.transmitter=false
-ro.fm.mulinst.recording.support=false

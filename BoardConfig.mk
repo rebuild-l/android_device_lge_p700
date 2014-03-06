@@ -37,6 +37,10 @@ DISABLE_OTA := true
 #WITH_DEXPREOPT := true
 RECOVERY_CANT_USE_CONFIG_EXT4_FS_XATTR := true
 
+# AOSP low Ram
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.low_ram=true
+
 PRODUCT_LOCALES := en_US en_IN fr_FR it_IT es_ES et_EE de_DE nl_NL cs_CZ \
     pl_PL ja_JP zh_TW zh_CN zh_HK ru_RU ko_KR nb_NO es_US da_DK el_GR tr_TR \
     pt_PT pt_BR rm_CH sv_SE bg_BG ca_ES en_GB fi_FI hr_HR hu_HU in_ID iw_IL \

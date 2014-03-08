@@ -44,7 +44,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT="lge/u0_open_EUR/u0:4.1.2/JZO54K/P700_V20a-EUR-V20a.20130321.085042:user/release-keys" \
     PRIVATE_BUILD_DESC="u0_open_EUR-user 4.1.2 JZO54K P700_V20a-EUR-XX.1363826923 release-keys"
 
-PRODUCT_PACKAGES += Launcher3
 
 # Release name and versioning
 PRODUCT_RELEASE_NAME := OptimusL7

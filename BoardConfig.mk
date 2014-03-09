@@ -51,6 +51,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dexopt-data-only=1 \
     dalvik.vm.dexopt-flags=v=a,o=v,m=y,u=y
 
+# trebuchet
+PRODUCT_PACKAGES += \
+    Trebuchet
+
 ## Webkit
 ENABLE_WEBGL := true
 TARGET_WEBKIT_USE_MORE_MEMORY := true

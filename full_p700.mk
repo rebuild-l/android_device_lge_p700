@@ -42,6 +42,9 @@ PRODUCT_CHARACTERISTICS := phone
 # trebuchet
 PRODUCT_PACKAGES += Trebuchet
 
+# Leds
+PRODUCT_PACKAGES += Leds
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=u0_open_eu \
     BUILD_FINGERPRINT="lge/u0_open_EUR/u0:4.1.2/JZO54K/P700_V20a-EUR-V20a.20130321.085042:user/release-keys" \

@@ -4,6 +4,6 @@ then
 	DEVICE_NAME=${LUNCH#*_} DEVICE_NAME=${DEVICE_NAME%-*}
 	if [ "$DEVICE_NAME" == "p700" ]
 	then
-		sh device/huawei/p700/patches/apply.sh
+		sh device/lge/p700/patches/apply.sh
 	fi
 fi

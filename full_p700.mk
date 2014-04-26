@@ -45,11 +45,14 @@ PRODUCT_PACKAGES += Trebuchet
 # Leds
 PRODUCT_PACKAGES += Leds
 
+# override
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=u0_open_eu \
-    BUILD_FINGERPRINT="lge/u0_open_EUR/u0:4.1.2/JZO54K/P700_V20a-EUR-V20a.20130321.085042:user/release-keys" \
-    PRIVATE_BUILD_DESC="u0_open_EUR-user 4.1.2 JZO54K P700_V20a-EUR-XX.1363826923 release-keys"
-
+    BUILD_NUMBER=144808 \
+    PRODUCT_NAME=p700 \
+    TARGET_BUILD_TYPE=user \
+    BUILD_VERSION_TAGS=release-keys \
+    PRIVATE_BUILD_DESC="p700-user 4.4.2 KVT49L 144808 release-keys" \
+    BUILD_FINGERPRINT="lge/p700/4.4.2/KVT49L/144808:user/release-keys"
 
 # Release name and versioning
 PRODUCT_RELEASE_NAME := OptimusL7

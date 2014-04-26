@@ -1,6 +1,10 @@
 [
   {
     "remote": "remove",
+    "target_path": "CyanogenMod/android_frameworks_webview"
+    },
+  {
+    "remote": "remove",
     "target_path": "CyanogenMod/android_hardware_qcom_display-caf"
     },
   {

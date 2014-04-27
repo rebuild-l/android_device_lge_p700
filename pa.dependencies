@@ -32,7 +32,7 @@
   {
     "remote": "cm",
     "revision": "cm-11.0",
-    "repository": "legaCyMod/android_frameworks_av",
+    "repository": "cr3pt/android_frameworks_av",
     "target_path": "frameworks/av"
   },
   {

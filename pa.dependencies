@@ -5,6 +5,10 @@
     },
   {
     "remote": "remove",
+    "target_path": "CyanogenMod/android_hardware_qcom_display"
+    },
+  {
+    "remote": "remove",
     "target_path": "CyanogenMod/android_hardware_qcom_media-caf"
     },
   {
@@ -23,7 +27,7 @@
   },
   {
     "remote": "CRX",
-    "revision": "kitkat",
+    "revision": "AOSPA",
     "repository": "android_device_lge_msm7x27a-common",
     "target_path": "device/lge/msm7x27a-common"
   },
@@ -34,9 +38,9 @@
     "target_path": "vendor/lge"
   },
   {
-    "remote": "cm",
+    "remote": "cr3pt",
     "revision": "cm-11.0",
-    "repository": "cr3pt/android_frameworks_av",
+    "repository": "android_frameworks_av",
     "target_path": "frameworks/av"
   },
   {
@@ -46,16 +50,10 @@
     "target_path": "hardware/qcom/display-legacy"
   },
   {
-    "remote": "cm",
+    "remote": "cr3pt",
     "revision": "cm-11.0",
-    "repository": "androidarmv6/android_hardware_qcom_media-legacy",
-    "target_path": "hardware/qcom/media-legacy"
-  },
-  {
-    "remote": "cm",
-    "revision": "cm-11.0",
-    "repository": "TeamHackLg/android_hardware_qcom_media-caf",
-    "target_path": "hardware/qcom/media-legacy"
+    "repository": "android_hardware_qcom_media-caf",
+    "target_path": "hardware/qcom/media-caf"
   },
   {
     "remote": "CRX",

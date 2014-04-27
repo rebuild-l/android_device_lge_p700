@@ -60,5 +60,10 @@
     "revision": "cm-11.0",
     "repository": "android_external_chromium_org",
     "target_path": "external/chromium_org"
+  },
+  { "remote": "CRX",
+    "revision": "cm-11.0",
+    "repository": "android_external_webkit",
+    "target_path": "external/webkit"
   }
  ]

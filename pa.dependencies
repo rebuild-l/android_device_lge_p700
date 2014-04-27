@@ -5,6 +5,10 @@
     },
   {
     "remote": "remove",
+    "target_path": "CyanogenMod/android_hardware_qcom_media-caf"
+    },
+  {
+    "remote": "remove",
     "target_path": "AOSPA-legacy/android_frameworks_av"
     },
   {
@@ -45,6 +49,12 @@
     "remote": "cm",
     "revision": "cm-11.0",
     "repository": "androidarmv6/android_hardware_qcom_media-legacy",
+    "target_path": "hardware/qcom/media-legacy"
+  },
+  {
+    "remote": "cm",
+    "revision": "cm-11.0",
+    "repository": "TeamHackLg/android_hardware_qcom_media-caf",
     "target_path": "hardware/qcom/media-legacy"
   },
   {

@@ -44,9 +44,9 @@
     "target_path": "frameworks/av"
   },
   {
-    "remote": "cm",
-    "revision": "cm-11.0",
-    "repository": "androidarmv6/android_hardware_qcom_display-legacy",
+    "remote": "CRX",
+    "revision": "kitkat",
+    "repository": "android_hardware_qcom_display-legacy",
     "target_path": "hardware/qcom/display-legacy"
   },
   {

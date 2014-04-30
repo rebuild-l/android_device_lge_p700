@@ -9,7 +9,7 @@ $(call inherit-product, vendor/custom/config/common.mk)
 # Inherit device configuration
 $(call inherit-product, device/lge/p700/p700.mk)
 
-PRODUCT_NAME := cm_p700
+PRODUCT_NAME := pa_p700
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 800

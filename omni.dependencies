@@ -1,23 +1,23 @@
 [
   {
     "remote": "remove",
-    "target_path": "CyanogenMod/android_frameworks_webview"
+    "target_path": "platform/frameworks/webview"
     },
   {
     "remote": "remove",
-    "target_path": "CyanogenMod/android_hardware_qcom_display"
+    "target_path": "android_hardware_qcom_display"
     },
   {
     "remote": "remove",
-    "target_path": "CyanogenMod/android_hardware_qcom_media-caf"
+    "target_path": "android_hardware_qcom_media-caf"
     },
   {
     "remote": "remove",
-    "target_path": "AOSPA-legacy/android_frameworks_av"
+    "target_path": "android_frameworks_av"
     },
   {
     "remote": "remove",
-    "target_path": "CyanogenMod/android_external_chromium_org"
+    "target_path": "android_external_chromium_org"
     },
   {
     "remote": "CRX",

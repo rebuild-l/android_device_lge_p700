@@ -1,0 +1,69 @@
+[
+  {
+    "remote": "remove",
+    "target_path": "CyanogenMod/android_frameworks_webview"
+    },
+  {
+    "remote": "remove",
+    "target_path": "CyanogenMod/android_hardware_qcom_display"
+    },
+  {
+    "remote": "remove",
+    "target_path": "CyanogenMod/android_hardware_qcom_media-caf"
+    },
+  {
+    "remote": "remove",
+    "target_path": "AOSPA-legacy/android_frameworks_av"
+    },
+  {
+    "remote": "remove",
+    "target_path": "CyanogenMod/android_external_chromium_org"
+    },
+  {
+    "remote": "CRX",
+    "revision": "android-msm-3.4-kk-extra",
+    "repository": "lge-kernel-lproj",
+    "target_path": "kernel/lge/msm7x27a-common"
+  },
+  {
+    "remote": "CRX",
+    "revision": "kitkat",
+    "repository": "android_device_lge_msm7x27a-common",
+    "target_path": "device/lge/msm7x27a-common"
+  },
+  {
+    "remote": "CRX",
+    "revision": "cm-11.0",
+    "repository": "proprietary_vendor_lge",
+    "target_path": "vendor/lge"
+  },
+  {
+    "remote": "cr3pt",
+    "revision": "cm-11.0",
+    "repository": "android_frameworks_av",
+    "target_path": "frameworks/av"
+  },
+  {
+    "remote": "CRX",
+    "revision": "kitkat",
+    "repository": "android_hardware_qcom_display-legacy",
+    "target_path": "hardware/qcom/display-legacy"
+  },
+  {
+    "remote": "cr3pt",
+    "revision": "cm-11.0",
+    "repository": "android_hardware_qcom_media-caf",
+    "target_path": "hardware/qcom/media-caf"
+  },
+  {
+    "remote": "CRX",
+    "revision": "cm-11.0",
+    "repository": "android_external_chromium_org",
+    "target_path": "external/chromium_org"
+  },
+  { "remote": "CRX",
+    "revision": "cm-11.0",
+    "repository": "android_external_webkit",
+    "target_path": "external/webkit"
+  }
+ ]

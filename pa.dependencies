@@ -5,7 +5,7 @@
     },
   {
     "remote": "remove",
-    "target_path": "CyanogenMod/android_hardware_qcom_display"
+    "target_path": "CyanogenMod/android_hardware_qcom_display-caf"
     },
   {
     "remote": "remove",
@@ -47,7 +47,7 @@
     "remote": "cm",
     "revision": "cm-11.0",
     "repository": "zodex/android_hardware_qcom_display-caf",
-    "target_path": "hardware/qcom/display-legacy"
+    "target_path": "hardware/qcom/display-caf"
   },
   {
     "remote": "cr3pt",

@@ -20,6 +20,10 @@
     "target_path": "CyanogenMod/android_external_chromium_org"
     },
   {
+    "remote": "remove",
+    "target_path": "CyanogenMod/android_packages_apps_Browser"
+	},
+  {
     "remote": "CRX",
     "revision": "android-msm-3.4-kk-extra",
     "repository": "lge-kernel-lproj",
@@ -65,5 +69,10 @@
     "revision": "cm-11.0",
     "repository": "android_external_webkit",
     "target_path": "external/webkit"
+  },
+  { "remote": "CRX",
+    "revision": "cm-11.0",
+    "repository": "android_packages_apps_Browser",
+    "target_path": "packages/apps/Browser"
   }
  ]

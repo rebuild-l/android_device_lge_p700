@@ -1,6 +1,10 @@
 [
   {
     "remote": "remove",
+    "target_path": "CyanogenMod/android_frameworks_webview"
+    },
+  {
+    "remote": "remove",
     "target_path": "CyanogenMod/android_hardware_qcom_display-caf"
     },
   {
@@ -10,6 +14,10 @@
   {
     "remote": "remove",
     "target_path": "AOSPA-legacy/android_frameworks_av"
+    },
+  {
+    "remote": "remove",
+    "target_path": "CyanogenMod/android_external_chromium_org"
     },
   {
     "remote": "CRX",
@@ -46,5 +54,16 @@
     "revision": "cm-11.0",
     "repository": "android_hardware_qcom_media-caf",
     "target_path": "hardware/qcom/media-caf"
+  },
+  {
+    "remote": "CRX",
+    "revision": "cm-11.0",
+    "repository": "android_external_chromium_org",
+    "target_path": "external/chromium_org"
+  },
+  { "remote": "CRX",
+    "revision": "cm-11.0",
+    "repository": "android_external_webkit",
+    "target_path": "external/webkit"
   }
-]
+ ]

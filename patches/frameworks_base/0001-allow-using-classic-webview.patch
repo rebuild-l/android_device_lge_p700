@@ -5345,6 +5345,11 @@ index 0000000..36159e1
 +    }
 +
 +    @Override
++    public int countCookies() {
++        return nativeCountCookies();
++    }
++
++    @Override
 +    public void removeAllCookie() {
 +        nativeRemoveAllCookie();
 +    }
@@ -5391,6 +5396,7 @@ index 0000000..36159e1
 +    private static native void nativeFlushCookieStore();
 +    private static native boolean nativeAcceptFileSchemeCookies();
 +    private static native void nativeSetAcceptFileSchemeCookies(boolean accept);
++    private static native int nativeCountCookies();
 +}
 diff --git a/core/java/android/webkit/CookieSyncManager.java b/core/java/android/webkit/CookieSyncManager.java
 index 13aa43f..154a290 100644

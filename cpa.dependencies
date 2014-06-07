@@ -17,7 +17,7 @@
   },
   {
     "remote": "remove",
-    "target_path": "CyanogenMod/android_external_chromium"
+    "target_path": "platform/external/chromium"
   },
   {
     "remote": "remove",

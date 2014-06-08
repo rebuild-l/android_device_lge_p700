@@ -5207,7 +5207,7 @@ new file mode 100644
 index 0000000..36159e1
 --- /dev/null
 +++ b/core/java/android/webkit/CookieManagerClassic.java
-@@ -0,0 +1,184 @@
+@@ -0,0 +1,190 @@
 +/*
 + * Copyright (C) 2012 The Android Open Source Project
 + *
@@ -5397,7 +5397,6 @@ index 0000000..36159e1
 +    private static native boolean nativeAcceptFileSchemeCookies();
 +    private static native void nativeSetAcceptFileSchemeCookies(boolean accept);
 +    private static native int nativeCountCookies();
-+}
 +}
 diff --git a/core/java/android/webkit/CookieSyncManager.java b/core/java/android/webkit/CookieSyncManager.java
 index 13aa43f..154a290 100644

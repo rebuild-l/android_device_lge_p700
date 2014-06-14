@@ -15,7 +15,7 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=u0 lge.signed_image=false
 TARGET_PREBUILT_KERNEL := device/lge/p700/kernel
 
 #kernel
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.8
+#TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.8
 
 TARGET_KERNEL_SOURCE := kernel/lge/msm7x27a-common
 

@@ -1,13 +1,5 @@
 [
   {
-    "remote": "remove",
-    "target_path": "CyanogenMod/android_frameworks_webview"
-  },
-  {
-    "remote": "remove",
-    "target_path": "CyanogenMod/android_packages_apps_Browser"
-  },
-  {
     "remote": "CRX",
     "revision": "android-msm-3.4-kk-extra",
     "repository": "lge-kernel-lproj",

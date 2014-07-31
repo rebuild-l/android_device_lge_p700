@@ -1,29 +1,5 @@
 [
   {
-    "remote": "remove",
-    "target_path": "CyanogenMod/android_frameworks_webview"
-  },
-  {
-    "remote": "remove",
-    "target_path": "CyanogenMod/android_hardware_qcom_display-caf"
-  },
-  {
-    "remote": "remove",
-    "target_path": "CyanogenMod/android_hardware_qcom_media-caf"
-  },
-  {
-    "remote": "remove",
-    "target_path": "AOSPA-legacy/android_frameworks_av"
-  },
-  {
-    "remote": "remove",
-    "target_path": "platform/external/chromium"
-  },
-  {
-    "remote": "remove",
-    "target_path": "CyanogenMod/android_packages_apps_Browser"
-  },
-  {
     "remote": "CRX",
     "revision": "android-msm-3.4-kk-extra",
     "repository": "lge-kernel-lproj",

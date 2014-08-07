@@ -17,13 +17,8 @@ TARGET_PREBUILT_KERNEL := device/lge/p700/kernel
 #TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.8
 TARGET_KERNEL_SOURCE := kernel/lge/msm7x27a-common
 
-ifeq ($(HAVE_NFC),true)
 TARGET_BOOTLOADER_BOARD_NAME := p700
 TARGET_KERNEL_CONFIG := cyanogenmod_u0_defconfig
-else
-TARGET_BOOTLOADER_BOARD_NAME := p705
-TARGET_KERNEL_CONFIG := cyanogenmod_u0_nonfc_defconfig
-endif
 
 TARGET_RECOVERY_FSTAB := device/lge/p700/recovery.fstab
 

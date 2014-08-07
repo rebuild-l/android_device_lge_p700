@@ -1,8 +1,6 @@
 $(call inherit-product, device/lge/msm7x27a-common/msm7x27a-common.mk)
 
-ifeq ($(HAVE_NFC),true)
 $(call inherit-product, device/lge/msm7x27a-common/nfc.mk)
-endif
 
 $(call inherit-product-if-exists, vendor/lge/p700/p700-vendor.mk)
 

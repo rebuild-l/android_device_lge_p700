@@ -1,5 +1,5 @@
 #
-# system.prop for p700
+# system.prop for p70X
 #
 debug.camcorder.disablemeta=1
 ro.sf.hwrotation=180

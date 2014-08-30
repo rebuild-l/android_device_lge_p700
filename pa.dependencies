@@ -6,7 +6,7 @@
     "target_path": "kernel/lge/msm7x27a-common"
   },
   {
-    "remote": "THLG",
+    "remote": "cr3pt",
     "revision": "cm-11.0",
     "repository": "android_device_lge_msm7x27a-common",
     "target_path": "device/lge/msm7x27a-common"

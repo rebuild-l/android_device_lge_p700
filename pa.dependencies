@@ -1,39 +1,27 @@
 [
   {
-    "remote": "CRX",
-    "revision": "android-msm-3.4-kk-extra",
+    "remote": "cr3pt",
+    "revision": "android-msm-3.4-kk-exp",
     "repository": "lge-kernel-lproj",
     "target_path": "kernel/lge/msm7x27a-common"
   },
   {
-    "remote": "CRX",
-    "revision": "kitkat",
+    "remote": "THLG",
+    "revision": "cm-11.0",
     "repository": "android_device_lge_msm7x27a-common",
     "target_path": "device/lge/msm7x27a-common"
   },
   {
-    "remote": "CRX",
+    "remote": "THLG",
     "revision": "cm-11.0",
     "repository": "proprietary_vendor_lge",
     "target_path": "vendor/lge"
   },
   {
-    "remote": "cr3pt",
+    "remote": "THLG",
     "revision": "cm-11.0",
-    "repository": "android_frameworks_av",
-    "target_path": "frameworks/av"
-  },
-  {
-    "remote": "cm",
-    "revision": "cm-11.0",
-    "repository": "zodex/android_hardware_qcom_display-caf",
+    "repository": "android_hardware_qcom_display-caf",
     "target_path": "hardware/qcom/display-caf"
-  },
-  {
-    "remote": "cr3pt",
-    "revision": "cm-11.0",
-    "repository": "android_hardware_qcom_media-caf",
-    "target_path": "hardware/qcom/media-caf"
   },
   {
     "remote": "androidarmv6",

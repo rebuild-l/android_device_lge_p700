@@ -9,7 +9,7 @@ LGE_PROJECT := l
 
 TARGET_ARCH := arm
 
-BOARD_KERNEL_CMDLINE := androidboot.hardware=u0 lge.signed_image=false
+BOARD_KERNEL_CMDLINE := androidboot.hardware=u0 androidboot.selinux=permissive lge.signed_image=false
 
 TARGET_PREBUILT_KERNEL := device/lge/p700/kernel
 

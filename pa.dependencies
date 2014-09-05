@@ -19,7 +19,7 @@
   },
   {
     "remote": "THLG",
-    "revision": "cm-11.0",
+    "revision": "cm-11.0-old2",
     "repository": "android_hardware_qcom_display-caf",
     "target_path": "hardware/qcom/display-caf"
   },

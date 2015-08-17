@@ -20,6 +20,8 @@ TARGET_RECOVERY_FSTAB := device/lge/p700/recovery.fstab
 ## We need this for the flipped screen
 BOARD_CUSTOM_GRAPHICS := ../../../device/lge/p700/recovery/graphics.c
 
+TARGET_NO_SEPARATE_RECOVERY := true
+
 #bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/p700/bluetooth
 

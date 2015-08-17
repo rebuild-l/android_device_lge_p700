@@ -1,5 +1,4 @@
-#
-# Copyright 2012 The Android Open Source Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,30 +11,25 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
+# Boot animation
 
-# Sample: This is where we'd set a backup provider if we had one
-# $(call inherit-product, device/sample/products/backup_overlay.mk)
+# Inherit some common CM stuff.
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+
+# Enhanced NFC
+$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+
 # Inherit device configuration
-$(call inherit-product, device/lge/p700/device.mk)
+$(call inherit-product, device/lge/e610/full_p700.mk)
 
-PRODUCT_AAPT_CONFIG := normal hdpi
+# Boot animation
+TARGET_SCREEN_HEIGHT := 800
+TARGET_SCREEN_WIDTH := 480
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := p700
-PRODUCT_NAME := full_p700
+PRODUCT_NAME := cm_p700
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LG-P700
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_CHARACTERISTICS := phone
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=u0_open_eu \
-    BUILD_FINGERPRINT="lge/u0_open_EUR/u0:4.1.2/JZO54K/P700_V20a-EUR-V20a.20130321.085042:user/release-keys" \
-    PRIVATE_BUILD_DESC="u0_open_EUR-user 4.1.2 JZO54K P700_V20a-EUR-XX.1363826923 release-keys"
-
-
-# Release name and versioning
-PRODUCT_RELEASE_NAME := OptimusL7
-PRODUCT_VERSION_DEVICE_SPECIFIC :=
-
-

@@ -23,35 +23,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml
 
-# Wifi
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/wlan.ko:system/lib/modules/wlan.ko
-
 # Misc
 PRODUCT_PACKAGES += \
     libnetcmdiface
 
 # LibWebCore
 PRODUCT_PACKAGES += \
-    libwebcore 
-
-#bluetooth
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/bin/hwmac:system/bin/hwmac \
-    $(LOCAL_PATH)/prebuilt/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    $(LOCAL_PATH)/prebuilt/lib/libbt-vendor.so:system/lib/libbt-vendor.so
-
-# Enable for debugging
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.debuggable=1 \
-    persist.service.adb.enable=1
-
-#few things..
-
-# Reduce background apps limit to 12 on low-tier devices
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.sys.fw.bg_apps_limit=12
-
-# Set max background services
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.config.max_starting_bg=6
+    libwebcore

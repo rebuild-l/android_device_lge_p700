@@ -1,8 +1,7 @@
 #
-# system.prop for p70X
+# system.prop for p700
 #
 debug.camcorder.disablemeta=1
 ro.sf.hwrotation=180
 ro.sf.lcd_density=200
 ro.config.low_ram=true
-ro.pa.device=p700

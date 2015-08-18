@@ -26,7 +26,3 @@ PRODUCT_COPY_FILES += \
 # Misc
 PRODUCT_PACKAGES += \
     libnetcmdiface
-
-# LibWebCore
-PRODUCT_PACKAGES += \
-    libwebcore

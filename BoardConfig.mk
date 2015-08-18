@@ -30,29 +30,3 @@ PRODUCT_LOCALES := en_US en_IN fr_FR it_IT es_ES et_EE de_DE nl_NL cs_CZ \
     pt_PT pt_BR rm_CH sv_SE bg_BG ca_ES en_GB fi_FI hr_HR hu_HU in_ID iw_IL \
     lt_LT lv_LV ro_RO sk_SK sl_SI sr_RS uk_UA vi_VN tl_PH ar_EG fa_IR sw_TZ \
     ms_MY af_ZA zu_ZA en_XA ar_XB fr_CA mn_MN hy_AM az_AZ ka_GE
-
-# Dalvik
-PRODUCT_PROPERTY_OVERRIDES += \
-    dalvik.vm.heaptargetutilization=0.25 \
-    dalvik.vm.jit.codecachesize=0 \
-    dalvik.vm.checkjni=false \
-    dalvik.vm.dexopt-data-only=1 \
-    dalvik.vm.dexopt-flags=v=a,o=v,m=y,u=y
-
-## Webkit
-PRODUCT_PACKAGES += \
-    libwebcore	
-
-# (classic webview provider)
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.webview.provider=classic
-
-ENABLE_WEBGL := true
-PRODUCT_PREBUILT_WEBVIEWCHROMIUM := yes
-TARGET_ARCH_LOWMEM := true
-JS_ENGINE	:= v8
-HTTP	:= chrome
-WITH_JIT	:= true
-ENABLE_JSC_JIT	:= true
-TARGET_WEBKIT_USE_MORE_MEMORY	:= true
-TARGET_FORCE_CPU_UPLOAD	:= true

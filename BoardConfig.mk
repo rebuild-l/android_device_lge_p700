@@ -22,6 +22,8 @@ BOARD_CUSTOM_GRAPHICS := ../../../device/lge/p700/recovery/graphics.c
 
 TARGET_NO_SEPARATE_RECOVERY := true
 
+TARGET_USE_WEBKIT := 
+
 #bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/p700/bluetooth
 

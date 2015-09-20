@@ -9,8 +9,6 @@ TARGET_ARCH := arm
 
 BOARD_KERNEL_CMDLINE := androidboot.hardware=u0 androidboot.selinux=permissive lge.signed_image=false
 
-TARGET_KERNEL_SOURCE := kernel/lge/msm7x27a-common
-
 TARGET_BOOTLOADER_BOARD_NAME := p700
 
 TARGET_KERNEL_CONFIG := cyanogenmod_u0_defconfig
@@ -21,8 +19,6 @@ TARGET_RECOVERY_FSTAB := device/lge/p700/configs/fstab.u0
 BOARD_CUSTOM_GRAPHICS := ../../../device/lge/p700/recovery/graphics.c
 
 TARGET_NO_SEPARATE_RECOVERY := true
-
-TARGET_USE_WEBKIT := 
 
 #bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/p700/bluetooth
